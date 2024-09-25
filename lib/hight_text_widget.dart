@@ -56,15 +56,6 @@ class _HighlightTextWidgetState extends State<HighlightTextWidget> {
     return _lightTextWidget(widget.lighlight);
   }
 
-
-  _matchLighlightSpan() {
-
-    // RegExp exp = RegExp(r"text:(.+?(?=}))");
-    // final matches = exp.allMatches(myString).map((m) => m.group(0)).toString();
-    // print("allMatches : $matches");
-
-  }
-
   /// 需要高亮显示的内容
   Widget _lightTextWidget(String lightText) {
     List<TextSpan> spans = [];
